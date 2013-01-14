@@ -4,3 +4,5 @@ update:
 	mkdir -p src
 	sed 's/AF/OMAF/g' AFNetworking/AFURLConnectionOperation.h > src/OMAFURLConnectionOperation.h
 	sed 's/AF/OMAF/g' AFNetworking/AFURLConnectionOperation.m > src/OMAFURLConnectionOperation.m
+	sed 's/AF/OMAF/g' AFNetworking/AFHTTPRequestOperation.h > src/OMAFHTTPRequestOperation.h
+	sed 's/AF/OMAF/g' AFNetworking/AFHTTPRequestOperation.m > src/OMAFHTTPRequestOperation.m

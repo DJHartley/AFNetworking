@@ -6,3 +6,5 @@ update:
 	sed 's/AF/OMAF/g' AFNetworking/AFURLConnectionOperation.m > src/OMAFURLConnectionOperation.m
 	sed 's/AF/OMAF/g' AFNetworking/AFHTTPRequestOperation.h > src/OMAFHTTPRequestOperation.h
 	sed 's/AF/OMAF/g' AFNetworking/AFHTTPRequestOperation.m > src/OMAFHTTPRequestOperation.m
+	sed 's/AF/OMAF/g' AFNetworking/AFXMLRequestOperation.h > src/OMAFXMLRequestOperation.h
+	sed 's/AF/OMAF/g' AFNetworking/AFXMLRequestOperation.m > src/OMAFXMLRequestOperation.m
